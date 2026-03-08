@@ -2,7 +2,7 @@ const yes = document.querySelector("#yes");
 const no = document.querySelector("#no");
 const gif = document.querySelector("#gif");
 const text = document.querySelector("#text");
-const vid = document.querySelector("video");
+const vid = document.querySelector("#video");
 let count = 2;
 
 const gifs = [
@@ -67,6 +67,7 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
 
