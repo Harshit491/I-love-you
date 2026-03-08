@@ -12,7 +12,7 @@ const gifs = [
   "resources/5.crying.gif",
   "resources/heart.webm"
   "resources/3shocked-1.gif",
-  "resources/cat-heart.gif"
+  "resources/cat-heart.gif",
 ];
 
 // to load the gifs faster
@@ -67,6 +67,7 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
 
