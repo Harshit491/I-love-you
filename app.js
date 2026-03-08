@@ -8,9 +8,9 @@ let count = 2;
 const gifs = [
   "resources/rusure.gif",
   "resources/3shocked-1.gif",
-  "resource/3shocked-1.gif",
+  "resources/3shocked-1.gif",
   "resources/5.crying.gif",
-  "resources/heart.webm"
+  "resources/heart.webm",
   "resources/3shocked-1.gif",
   "resources/cat-heart.gif",
 ];
@@ -67,6 +67,7 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
 
